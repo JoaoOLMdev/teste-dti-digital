@@ -1,0 +1,11 @@
+.section1{
+    margin-top: 50px;
+    padding: 50px 350px;
+}
+
+.title{
+    margin-bottom: 20px;
+    font-weight: bold;
+    font-size: 4rem;
+    color: var(--secondary-color);
+}

@@ -1,0 +1,23 @@
+.nav{
+    padding: 21px 70px;
+}
+
+.nav_container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav_logo{
+    height: 48px;
+
+}
+ 
+.nav_lists{
+    padding-left: 40%;
+}
+
+.nav_lists .nav-link {
+    color: var(--primary-color);
+    font-weight: bold;
+}
