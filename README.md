@@ -7,6 +7,5 @@ Intruções:
 
 Para executar o projeto entre no diretorio do projeto e utilize os seguintes comandos:
 
-`npm i
-npm run dev
-`
+`npm i`
+`npm run dev`
