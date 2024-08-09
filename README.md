@@ -5,7 +5,7 @@ A página foi construida utilizando React e React-bootstrap como biclioteca de c
 
 Intruções:
 Para executar o projeto entre no diretorio do projeto e utilize os seguintes comandos:
-"""
+'''
 npm i
 npm run dev
-"""
+'''
