@@ -1,4 +1,4 @@
-.section1{
+.section{
     margin-top: 50px;
     padding: 50px 350px;
 }
@@ -8,4 +8,46 @@
     font-weight: bold;
     font-size: 4rem;
     color: var(--secondary-color);
+}
+
+.container_image{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-image: url(./assets/img/Celular-DTI-1.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 50px;
+    justify-items: center;
+    align-items: center;
+}
+
+.container_title_image{
+    font-weight: bold;
+    font-size: 4rem;
+    color: white;
+}
+
+.container_button{
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    border: none;
+    border-radius: 10px;
+    width: 210px;
+    height: 50px;
+    color: white;
+}
+
+.center_div{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.newsletter_button{
+    font-weight: bold;
+    border: none;
+    border-radius: 6px;
+    padding: 15px 30px;
+    background-color: var(--tertiary-color);
 }

@@ -1,0 +1,80 @@
+.footer{
+    color: var(--tertiary-color);
+    background: #0C2340;
+}
+
+.div_footer{
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.first_floor{
+    display: flex;
+    justify-content: center;
+    gap: 10em;
+    padding: 50px;
+}
+
+.footer_div{
+    display: flex;
+}
+
+.footer_link{
+    color : var(--tertiary-color);
+}
+
+.footer_contact_div{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 10px;
+
+}
+
+.footer_icons_div{
+    display: flex;
+    gap: 20px;
+}
+
+.footer_icons{
+    height: 2em;
+    width: auto;
+    
+}
+
+.footer_navbar{
+    display: flex;
+    align-items: baseline;
+    gap: 100px;
+}
+
+.nav_texts{
+    font-weight: bold;
+}
+
+.nav_texts .dropdown-toggle::after{
+    font-weight: bold;
+    display: none;
+}
+
+.nav_texts .dropdown-menu{
+    background: #0C2340;
+    border: none;
+}
+
+.nav_item{
+    background: none;
+    border: none;
+    color : var(--tertiary-color);
+    padding: 0;
+    margin: 0;
+}
+
+.footer_final{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 365px;
+    margin-top: 50px;
+}
+

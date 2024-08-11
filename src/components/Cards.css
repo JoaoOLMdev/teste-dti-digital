@@ -1,0 +1,30 @@
+.container_cards{
+    display: flex;
+    gap: 25px;
+}
+
+.cards{
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    border: none;
+}
+
+.card_body{
+    padding: 40px;
+}
+
+.card_title{
+    font-weight: bold;
+    color: var(--primary-color)
+}
+
+.card_text{
+    font-size: 15px;
+    padding: 20px 0px;
+    font-weight: 500;
+    color: #777;
+}
+
+.card_link{
+    font-weight: bold;
+    color: #c36;
+}

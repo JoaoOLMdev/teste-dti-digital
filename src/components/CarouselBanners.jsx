@@ -4,7 +4,7 @@ import carrossel1 from '../assets/img/carrossel1.webp';
 import carrossel2 from '../assets/img/carrossel2.webp';
 import carrossel3 from '../assets/img/carrossel3.webp';
 
-export default function CarouselComponent(){
+export default function CarouselBanners(){
     return(
         <>
         <Carousel>
