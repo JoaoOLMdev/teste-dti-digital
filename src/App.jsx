@@ -1,7 +1,6 @@
 import './App.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './assets/styles/variables.css';
-import './assets/styles/global.css';
 
 import Header from './components/Header'
 import CarouselBanners from './components/CarouselBanners'

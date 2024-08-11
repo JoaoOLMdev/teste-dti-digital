@@ -1,10 +1,10 @@
-.body{
+.body {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.carousel_hosts{
+.carousel_hosts {
     align-items: center;
     padding: 20px;
     margin: 50px 20px;
@@ -12,30 +12,132 @@
     gap: 50px;
     border: none;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.1);
     border-left: solid 20px var(--tertiary-color);
     width: 700px;
     height: 350px;
-
 }
 
-.carousel_img{
+.carousel_img {
     width: 180px;
     height: 180px;
+    border-radius: 50%;
 }
 
-.carousel_title{
+.carousel_title {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
 }
 
-.carousel_text{
+.carousel_text {
     font-size: 14px;
-    
 }
 
-.carousel_image{
+.carousel_image {
     width: 25px;
     height: 25px;
+}
+
+@media only screen and (max-width: 1200px) {
+    .carousel_hosts {
+        width: 600px;
+        height: auto;
+        gap: 40px;
+    }
+
+    .carousel_img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .carousel_title {
+        font-size: 1.3rem;
+    }
+
+    .carousel_text {
+        font-size: 13px;
+    }
+}
+
+@media only screen and (max-width: 992px) {
+    .carousel_hosts {
+        width: 100%;
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .carousel_img {
+        width: 140px;
+        height: 140px;
+    }
+
+    .carousel_text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .carousel_hosts {
+        padding: 20px;
+        margin: 20px;
+        gap: 20px;
+    }
+
+    .carousel_img {
+        width: 120px;
+        height: 120px;
+    }
+
+    .carousel_title {
+        font-size: 1.2rem;
+    }
+
+    .carousel_text {
+        font-size: 12px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    .carousel_hosts {
+        padding: 15px;
+        margin: 15px;
+        gap: 10px;
+        width: 100%;
+    }
+
+    .carousel_img {
+        width: 100px;
+        height: 100px;
+    }
+
+    .carousel_title {
+        font-size: 1rem;
+    }
+
+    .carousel_text {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .carousel_hosts {
+        padding: 10px;
+        margin: 10px;
+        gap: 5px;
+    }
+
+    .carousel_img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .carousel_title {
+        font-size: 0.9rem;
+    }
+
+    .carousel_text {
+        font-size: 10px;
+    }
 }

@@ -1,30 +1,46 @@
-.container_cards{
+.container_cards {
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
-.cards{
+.cards {
     box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
     border: none;
+    flex: 1;
+    min-width: 280px;
+    max-width: 100%;
 }
 
-.card_body{
+.card_body {
     padding: 40px;
 }
 
-.card_title{
+.card_title {
     font-weight: bold;
-    color: var(--primary-color)
+    color: var(--primary-color);
 }
 
-.card_text{
+.card_text {
     font-size: 15px;
     padding: 20px 0px;
     font-weight: 500;
     color: #777;
 }
 
-.card_link{
+.card_link {
     font-weight: bold;
     color: #c36;
+}
+
+@media (max-width: 768px) {
+    .container_cards {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cards {
+        width: 100%;
+        margin-bottom: 20px;
+    }
 }

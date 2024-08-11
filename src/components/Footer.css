@@ -1,80 +1,100 @@
-.footer{
-    color: var(--tertiary-color);
-    background: #0C2340;
-}
-
-.div_footer{
-    display: flex;
-    flex-direction: column;
-    
-}
-
-.first_floor{
-    display: flex;
-    justify-content: center;
-    gap: 10em;
-    padding: 50px;
-}
-
-.footer_div{
-    display: flex;
-}
-
-.footer_link{
-    color : var(--tertiary-color);
-}
-
-.footer_contact_div{
-    display: flex;
-    flex-direction: column;
-    gap: 20px;
-    padding-top: 10px;
-
-}
-
-.footer_icons_div{
-    display: flex;
-    gap: 20px;
-}
-
-.footer_icons{
-    height: 2em;
-    width: auto;
-    
-}
-
-.footer_navbar{
-    display: flex;
-    align-items: baseline;
-    gap: 100px;
-}
-
-.nav_texts{
-    font-weight: bold;
-}
-
-.nav_texts .dropdown-toggle::after{
-    font-weight: bold;
-    display: none;
-}
-
-.nav_texts .dropdown-menu{
-    background: #0C2340;
-    border: none;
-}
-
-.nav_item{
-    background: none;
-    border: none;
-    color : var(--tertiary-color);
-    padding: 0;
+body {
     margin: 0;
-}
-
-.footer_final{
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  
+.footer {
+    background-color: #162544;
+    color: #C2FF00;
+    padding: 20px 40px;
+  }
+  
+.footer_content {
     display: flex;
     justify-content: space-between;
-    padding: 50px 365px;
-    margin-top: 50px;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+.footer_column {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+.footer_column h3 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  
+.footer_column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+.footer_column ul li {
+    margin-bottom: 5px;
+  }
+  
+.footer_column ul li a {
+    text-decoration: none;
+    color: #C2FF00;
+  }
+  
+.footer_column ul li a:hover {
+    text-decoration: underline;
+  }
+  
+.social_icons {
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+  }
+  
+.footer_bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+  }
+  
+.footer_bottom a {
+    text-decoration: none;
+    color: #C2FF00;
+  }
+  
+.footer_bottom a:hover {
+    text-decoration: underline;
+  }
+  
+.powered_by {
+    margin-top: 10px;
+  }
+
+.footer_icon{
+    width: 30px;
+    height: 30px;
 }
 
+.footer_subtitles{
+    font-weight: bold;
+}
+  
+  @media (max-width: 768px) {
+    .footer_content {
+      flex-direction: column;
+      align-items: center;
+    }
+
+    .social_icons{
+        justify-content: center;
+    }
+  
+    .footer_column {
+      text-align: center;
+    }
+  
+    .footer_bottom {
+      margin-top: 30px;
+    }
+  }
+  

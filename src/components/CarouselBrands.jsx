@@ -34,36 +34,34 @@ const responsive = {
     },
   };
 
-export default function CarouselBrands(){
-    return(
-        <>
-            <div className="carousel_container">
-                <Carousel
-                    responsive={responsive}
-                    infinite={true}
-                    autoPlay={true}
-                    autoPlaySpeed={3000}
-                    keyBoardControl={true}
-                    customTransition="all 1s"
-                    transitionDuration={500}
-                    containerClass="carousel-container"
-                    removeArrowOnDeviceType={['tablet', 'mobile']}
-                    itemClass="carousel-item-padding-40-px"
-                >
-                        <img src={Nestle} alt="" />
-                        <img src={Nike} alt="" />
-                        <img src={Olx} alt="" />
-                        <img src={PeG} alt="" />
-                        <img src={Picpay} alt="" />
-                        <img src={Bain} alt="" />
-                        <img src={Conquer} alt="" />
-                        <img src={Itau} alt="" />
-                        <img src={Localiza} alt="" />
-                        <img src={Locaweb} alt="" />
-                        <img src={Magalu} alt="" />
-                        <img src={Mercadopago} alt="" />
-                </Carousel>
-            </div>
-        </>
-    )
+  export default function CarouselBrands() {
+    return (
+        <div className="carousel_container">
+            <Carousel
+                responsive={responsive}
+                infinite={true}
+                autoPlay={true}
+                autoPlaySpeed={3000}
+                keyBoardControl={true}
+                customTransition="all 1s"
+                transitionDuration={500}
+                containerClass="carousel-container"
+                removeArrowOnDeviceType={['tablet', 'mobile']}
+                itemClass="carousel-item-padding-40-px"
+            >
+                <img src={Nestle} alt="Nestle" />
+                <img src={Nike} alt="Nike" />
+                <img src={Olx} alt="Olx" />
+                <img src={PeG} alt="PeG" />
+                <img src={Picpay} alt="Picpay" />
+                <img src={Bain} alt="Bain" />
+                <img src={Conquer} alt="Conquer" />
+                <img src={Itau} alt="Itau" />
+                <img src={Localiza} alt="Localiza" />
+                <img src={Locaweb} alt="Locaweb" />
+                <img src={Magalu} alt="Magalu" />
+                <img src={Mercadopago} alt="Mercadopago" />
+            </Carousel>
+        </div>
+    );
 }

@@ -1,7 +1,23 @@
-.carousel_brands{
-    display: flex;
-    align-items: center;
-    justify-items: center;
-    padding: 20px;
-    margin: 0px 20px;
+.carousel_container {
+    width: 100%;
+    overflow: hidden;
+    padding: 20px 0; /* Ajuste do padding do container */
+}
+
+.carousel_container img {
+    width: 100%; /* Garante que as imagens ocupem 100% da largura disponível */
+    height: auto;
+    display: block; /* Remove qualquer espaço extra ao redor das imagens */
+    margin: 0 auto;
+}
+
+.carousel-item-padding-40-px {
+    padding-left: 0;
+    padding-right: 0;
+    margin: 0;
+}
+
+.carousel_container {
+    padding-left: 0;
+    padding-right: 0;
 }

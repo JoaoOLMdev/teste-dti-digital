@@ -1,9 +1,17 @@
-.carousel_img{
-    width: 150px;
-    height: auto;
+.carousel_container {
+    width: 100%;
+    overflow: hidden;
 }
 
-.carousel_img2{
-    width: 230px;
-    height: auto;
+.carousel_item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px; 
+}
+
+.carousel_img {
+    max-width: 100%;
+    max-height: 100px;
+    object-fit: contain;
 }
