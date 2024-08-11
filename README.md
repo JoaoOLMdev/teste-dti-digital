@@ -2,7 +2,9 @@
 
 Construção da página:
 A página foi construida utilizando React
+
 React-bootstrap e React-responsive-carousel foram utilizados como biclioteca de componentes
+
 Utilizei CSS padrão para evitar conflitos com as bibliotecas
 
 Intruções:
